@@ -2,10 +2,10 @@
 
 namespace Astrogoat\Backup;
 
+use Astrogoat\Backup\Settings\BackupSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\Apps\AppPackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Astrogoat\Backup\Settings\BackupSettings;
 
 class BackupServiceProvider extends AppPackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Backup\Tests;
 
+use Astrogoat\Backup\BackupServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Backup\BackupServiceProvider;
 
 class TestCase extends Orchestra
 {
